@@ -1,7 +1,22 @@
-# ms3-fleet
+<div align="center">
 
-GitOps repository for deploying [ms3](https://github.com/ms3-systems/ms3) — this repo
-holds the Kubernetes manifests, Helm charts, and CD configuration used to run the
-platform's services (`api-service`, `auth-service`, `metadata-service`,
-`data-service`) on a cluster. Application source code lives in the main `ms3`
-repo; this one only describes *how it's deployed*, not how it works internally.
+  # ms3-systems
+
+  A lightweight, S3-compatible object storage platform — built to learn Go,
+  microservices, and Kubernetes.
+</div>
+
+---
+
+## Repos
+
+| Repo | What it is |
+|---|---|
+| [**ms3**](https://github.com/ms3-systems/ms3) | The application — four Go microservices that make up ms3 |
+| [**ms3-fleet**](https://github.com/ms3-systems/ms3-fleet) | GitOps — Kubernetes manifests and CD config that deploy it |
+
+## About ms3
+
+ms3 is a MinIO-inspired object store, kept small enough to be fully learnable
+end-to-end, while still speaking real S3 protocol (SigV4 signing, `aws-cli`
+compatible) rather than a simplified imitation of it.
