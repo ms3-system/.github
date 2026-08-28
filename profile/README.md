@@ -12,8 +12,8 @@
 
 | Repo | What it is |
 |---|---|
-| [**ms3**](https://github.com/ms3-systems/ms3) | The application — four Go microservices that make up ms3 |
-| [**ms3-fleet**](https://github.com/ms3-systems/ms3-fleet) | GitOps — Kubernetes manifests and CD config that deploy it |
+| [**ms3**](https://github.com/ms3-system/ms3) | The application — four Go microservices that make up ms3 |
+| [**ms3-fleet**](https://github.com/ms3-system/ms3-fleet) | GitOps — Kubernetes manifests and CD config that deploy it |
 
 ## About ms3
 
